@@ -15,7 +15,12 @@ Tested with
 # Running
 
 To run the training, simply call ``python Training.py``. 
-For Inference, you need to sepcify the model name ``python Inference.py <model>`` that has been saved by Training.
+For Inference, you need to specify the model name ``python Inference.py <model>`` that has been saved by Training.
+The label propagation can either be run in a non-sequential manner (worse) or a sequential manner. 
+The program parameters are the labeled time step, the slice and then a list of time step that should be propagated from the host time step.
+For the sequential version, several calls have to be made, e.g. ``python LabelPropagation.py 60 10 61``, ``python LabelPropagation.py 61 10 62``, and so on. 
+In this case, the propagation would first go from 60 to 61, and then from 61 to 62.
+The non-sequential call in the following example ``python LabelPropagation.py 60 10 61 62`` would first propagate from 60 to 61 and then from 60 to 62, which leads to a worse output quality. 
 
 # Citation
 
