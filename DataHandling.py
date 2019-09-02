@@ -7,7 +7,7 @@ import json
 import torch
 from torch.utils.data import DataLoader
 
-from globals import SAMPLE_PATH, DATA_PATH, RANDOM_SEED, MASK_PATH
+from globals import DATA_PATH, MASK_PATH
 from Vis import showDataWithNegAndPos
 from Floodfill import computeContour, computeMask
 
