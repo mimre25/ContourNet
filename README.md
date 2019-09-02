@@ -1,4 +1,4 @@
-# ContourNet-scratch
+# ContourNet
 
 This repository contains the PyTorch implementation for _ContourNet_, a Convolutional Neural Network (CNN) to detect salient isocontours in XGC plasma fusion.
 
