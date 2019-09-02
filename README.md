@@ -12,7 +12,10 @@ Tested with
 - tqdm 4.32.1
 - numpy 1.16.4
 
+# Running
 
+To run the training, simply call ``python Training.py``. 
+For Inference, you need to sepcify the model name ``python Inference.py <model>`` that has been saved by Training.
 
 # Citation
 
