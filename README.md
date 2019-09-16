@@ -26,4 +26,4 @@ The non-sequential call in the following example ``python LabelPropagation.py 60
 
 > Martin Imre, Jun Han, Julien Dominski, Michael Churchill, Ralph Kube, Choong-Seock Chang, Tom Peterka, Hanqi Guo, and Chaoli Wang. 
 ContourNet: Salient Local Contour Identification for Blob Detection in Plasma Fusion Simulation Data. 
-In Proceedings of International Symposium on Visual Computing, Lake Tahoe, NV, Oct 2019.
+_In Proceedings of International Symposium on Visual Computing, Lake Tahoe, NV, Oct 2019._
